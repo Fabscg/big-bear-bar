@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Architects Daughter', cursive;
+  background-color: #ebebe5;
+}
+
+hr {
+  border: 2px solid white;
+  width: 300px;
+}
+
+h2 {
+  font-size: 40px;
+  text-decoration: overline;
+  padding: 20px auto;
+}
+
+h3,
+p {
+  color: #3b3d2f;
+}
+
+span {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+}
+
+.navbar-toggler {
+  float: right;
+  position: fixed;
+  z-index: 2;
+  box-shadow: 5px 10px #d3d3d3;
+}
+
+.navbar-brand {
+  font-family: 'Zeyada', cursive;
+  font-size: 40px;
+  margin: 20px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 30px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.cover-logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: sticky;
+  width: 100%;
+  height: auto;
+}
+
+#menu {
+  padding-top: 40px;
+}
+
+.card-img {
+  height: 300px;
+  object-fit: initial;
+}
+
+.card-img:hover {
+  opacity: 0.6;
+}
+
+.menu-title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.location {
+  background-color: #bcbbae;
+}
+
+.d-block {
+  height: 500px;
+}
+
+iframe {
+  box-shadow: 5px 10px #888888;
+  display: flex;
+  margin: 30px 30px 30px;
+}
+
+.new-location {
+  margin: 50px auto !important;
+  position: relative;
+}
+
+.new-location-img {
+  min-width: -webkit-fill-available;
+  height: 600px;
+  object-fit: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* font-size: 40px;
+  opacity: 0.6;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 20px 20px; */
+}
+
+
+.address {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #3b3d2f;
+  color: white;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-container {
+  display: flex;
+}
+
+.fa-solid,
+.fa-brands {
+  padding: 15px;
+  color: white;
+}
+
+.icon:hover {
+  color: rgb(156, 154, 154);
+}
+
+@media screen and (max-width:768px) {
+
+  /*.navbar-brand {
+    display: block;
+    justify-content: end;
+    font-size: 25px;
+  }
+
+  .map {
+    display: flex;
+  }*/
+
+  footer .icons {
+    text-align: center;
+    display: flex;
+    width: 100%;
+  }
+
+  .copyright {
+    font-size: small;
+    margin-bottom: 0
+  }
+}
